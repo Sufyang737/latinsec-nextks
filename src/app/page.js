@@ -38,7 +38,7 @@ const Home = () => {
             es nuestra especialidad
           </h1>
           <p className="font-medium xl:text-xl lg:text-lg text-md max-w-sm">
-            Somos una empresa de vigilancia que cuenta con mas de 25 años de
+            Somos una empresa de vigilancia que cuenta con mas de 27 años de
             experiencia
           </p>
           <a
@@ -57,7 +57,7 @@ const Home = () => {
             </span>
             <div>
               <span className="font-bold text-[24px] text-[#252B42]">
-                +<CountUp end={500} duration={5} />
+                +<CountUp end={300} duration={5} />
               </span>
               <p className="font-semibold text-sm text-[#737373]">Empleados</p>
             </div>
@@ -68,7 +68,7 @@ const Home = () => {
             </span>
             <div>
               <span className="font-bold text-[24px] text-[#252B42]">
-                +<CountUp end={1000} duration={5} />
+                +<CountUp end={250} duration={5} />
               </span>
               <p className="font-semibold text-sm text-[#737373]">
                 Clientes felíces
@@ -81,7 +81,7 @@ const Home = () => {
             </span>
             <div>
               <span className="font-bold text-[24px] text-[#252B42]">
-                +<CountUp end={26} duration={5} />
+                +<CountUp end={27} duration={5} />
               </span>
               <p className="font-semibold text-sm text-[#737373]">
                 Años en el mercado
@@ -195,7 +195,7 @@ const Home = () => {
                 <span className="text-[#FF0000]">Sec</span>
               </h3>
               <p className="text-[#737373] font-medium text-sm">
-                Somos una empresa con una trayectoria empresarial con mas de 25
+                Somos una empresa con una trayectoria empresarial con mas de 27
                 años en el mercado y mas de 5000 clientes.
               </p>
             </div>
