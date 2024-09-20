@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+  env: {
+    NEXT_PUBLIC_RESEND_API_KEY: "re_THmtBgRy_Ak26PKQ6aNiAGwKTQeeuekgS",
+  },
+};
+module.exports = nextConfig;
