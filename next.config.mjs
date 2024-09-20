@@ -4,4 +4,5 @@ const nextConfig = {
     NEXT_PUBLIC_RESEND_API_KEY: "re_THmtBgRy_Ak26PKQ6aNiAGwKTQeeuekgS",
   },
 };
-module.exports = nextConfig;
+
+export default nextConfig;
