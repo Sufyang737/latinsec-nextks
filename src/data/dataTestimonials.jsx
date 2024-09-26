@@ -27,10 +27,4 @@ export const DataTestimonials = [
     description:"Excelente atención",
     rate: 4
   },
-  {
-    image: User3,
-    name: "Regina Miles",
-    description: "Lorem ipsum dolor sit amet consectetur. Quis porta habitasse eget id neque id blandit dolor in. Pellentesque leo penatibus orci egestas mauris nam nunc donec ac. Elementum feugiat eget egestas. Lorem ipsum dolor sit amet consectetur. Quis porta habitasse eget id neque id blandit dolor in. Pellentesque leo penatibus orci egestas mauris nam nunc donec ac. Elementum feugiat eget egestas.",
-    rate: 4
-  },
 ]
