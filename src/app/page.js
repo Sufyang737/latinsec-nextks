@@ -10,8 +10,7 @@ import {
 } from '@/assets/icons';
 import SwiperCompanies from '@/components/SwiperCompanies';
 import SwiperComponent from '@/components/SwiperComponent';
-// import Map from '../assets/images/map.png';
-import { FormContact } from '@/components/FormContact';
+import bgPrimary from '@/assets/images/bg-primary.webp';
 import CountUp from 'react-countup';
 import { Reveal } from '@/components/animation/Reveal';
 import { Typewriter } from 'react-simple-typewriter';
@@ -22,8 +21,18 @@ import SwiperAbout from '@/components/SwiperAbout';
 const Home = () => {
   return (
     <main className="z-10">
-      <section className="h-screen grid place-content-center text-white">
-        <div className="flex flex-col items-center text-center gap-3">
+      <section 
+        className="h-screen grid place-content-center text-white relative"
+        style={{
+          backgroundImage: `url(${bgPrimary.src})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="flex flex-col items-center text-center gap-3 relative z-10">
           <h1 className="xl:text-[58px] lg:text-5xl text-3xl font-extrabold  max-w-[780px]">
             Tu{' '}
             <Typewriter
@@ -42,7 +51,9 @@ const Home = () => {
             experiencia
           </p>
           <a
-            href="/contacto"
+             href="https://wa.me/+5491123180801"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-bold text-sm bg-[#0263A5] py-[10px] px-9 rounded-full hover:scale-110"
           >
             Contactanos
@@ -246,7 +257,7 @@ const Home = () => {
           <SwiperCompanies data={DataCompanies} />
         </div>
       </section>
-      <section className="bg-[#252B42] pt-16 pb-96 text-white px-5">
+      <section className="bg-[#252B42] pt-16 pb-20 text-white px-5">
         <div className="max-w-5xl mx-auto lg:flex items-center gap-5">
           <Reveal hiddenValue={{ opacity: 0, x: -75 }}>
             <div>
@@ -264,16 +275,7 @@ const Home = () => {
             </div>
           </Reveal>
           <div className="lg:w-[600px] mt-16 lg:mt-0">
-            <SwiperCompanies  data={DataTerritory} />
-          </div>
-        </div>
-      </section>
-      <section className="bg-[#FAFAFA] h-96 px-5">
-        <div className="max-w-5xl mx-auto relative">
-          <div className="absolute -top-64 w-full">
-            <Reveal hiddenValue={{ opacity: 0, y: 75 }}>
-              <FormContact />
-            </Reveal>
+            <SwiperCompanies data={DataTerritory} />
           </div>
         </div>
       </section>
