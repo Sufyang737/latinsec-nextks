@@ -61,16 +61,6 @@ export const Footer = () => {
                 <InstagramIcon />
               </span>
             </a>
-            <a href="#" className="hover:scale-110 transition-transform">
-              <span>
-                <TwitterIcon />
-              </span>
-            </a>
-            <a href="#" className="hover:scale-110 transition-transform">
-              <span>
-                <YoutubeIcon />
-              </span>
-            </a>
           </div>
         </div>
       </div>
