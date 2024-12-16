@@ -52,7 +52,7 @@ export const Footer = () => {
           {/* Nueva sección de contactos */}
           <h2 className="text-[#252B42] font-bold text-2xl mt-6">Nuestros contactos</h2>
           <div className="mt-4 text-sm text-[#737373]">
-            <p>Email: contacto@latinsec.com</p>
+            <p>Email: comercial@latinsec.com</p>
             <p>Teléfono: 5199-6673</p>
             <p>WhatsApp: +54-9-11-2318-0801</p>
           </div>
