@@ -16,9 +16,9 @@ const ContactPage = () => {
           <div>
             <h2 className="text-[#252B42] font-bold text-2xl mb-4">Información de Contacto</h2>
             <p className="text-lg mb-2">Fraga 1119, Ciudad Autónoma de Buenos Aires</p>
-            <p className="text-lg mb-2">Email: contacto@latinsec.com</p>
-            <p className="text-lg mb-2">Teléfono: +54 11 1234-5678</p>
-            <p className="text-lg mb-2">WhatsApp: +54 9 11 2345-6789</p>
+            <p className="text-lg mb-2">Email: cormercial@latinsec.com</p>
+            <p className="text-lg mb-2">Teléfono: 5199-6673</p>
+            <p className="text-lg mb-2">WhatsApp: +54-9-11-2318-0801</p>
           </div>
           <div>
             <h2 className="text-[#252B42] font-bold text-2xl mb-4">Visítanos</h2>
