@@ -11,7 +11,7 @@ import { Autoplay } from 'swiper/modules';
 import { DataTestimonials } from '../data/dataTestimonials';
 import { TestimonialCard } from './TestimonialCard';
 
-import Swiper1 from '@/assets/images/swiper-about-1.webp';
+
 import Swiper2 from '@/assets/images/swiper-about-2.webp';
 import Swiper3 from '@/assets/images/swiper-about-3.webp';
 import Swiper4 from '@/assets/images/swiper-about-4.webp';
@@ -31,9 +31,6 @@ export default function SwiperAbout() {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <Image src={Swiper1} alt="" />
-        </SwiperSlide>
         <SwiperSlide>
           <Image src={Swiper2} alt="" />
         </SwiperSlide>
