@@ -79,7 +79,7 @@ export const Navbar = () => {
             <a href="/latinsec">Latinsec</a>
           </li>
           <li>
-            <a  href="https://wa.me/+5491123180801"  className="font-extrabold bg-[#0063A5] rounded-[10px] py-2 px-3">Contacto</a>
+            <a  href="/contacto"  className="font-extrabold bg-[#0063A5] rounded-[10px] py-2 px-3">Contacto</a>
           </li>
         </ul>
       </nav>

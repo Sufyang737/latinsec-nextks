@@ -1,13 +1,21 @@
-import Seguridad from '@/assets/images/segurida-fisica.jpg';
+import Seguridad from '@/assets/images/newImage.jpeg';
 import { Reveal } from '@/components/animation/Reveal';
 import Image from 'next/image';
 
 const page = () => {
   return (
     <section className="bg-[#FAFAFA]">
-      <div>
-        <Image src={Seguridad} alt="" />
-      </div>
+    <div className="flex justify-center">
+        {/* Ajustar el tamaño de la imagen para que ocupe todo el ancho pero con altura controlada */}
+          <Image
+            src={Seguridad}
+            alt=""
+            layout="responsive"
+            width={1920} // Ancho de referencia para layout responsive
+            height={100} // Altura de referencia para layout responsive
+            className="object-cover h-16" // Ajusta la altura aquí
+          />
+        </div>
       <div className="max-w-5xl mx-auto py-16 flex flex-col gap-5 px-5">
         <Reveal hiddenValue={{ opacity: 0, x: -75 }}>
           <section>

@@ -6,7 +6,6 @@ import {
   YoutubeIcon,
 } from '@/assets/icons';
 import Image from 'next/image';
-
 export const Footer = () => {
   return (
     <footer className="z-10 bg-[#FAFAFA]">
@@ -16,6 +15,12 @@ export const Footer = () => {
           <p className="text-sm">
             &copy; Derechos reservados latinsec. Diseñado por ...
           </p>
+          <p className="text-sm mt-2">
+            Fraga 1119, Ciudad Autónoma de Buenos Aires
+          </p>
+          <a href="https://www.google.com/maps/place/Fraga+1119,+CABA" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-500">
+            Ver en Google Maps
+          </a>
         </div>
         <div className='lg:ml-16'>
           <h2 className="text-[#252B42] font-bold text-2xl">Servicios</h2>
@@ -44,6 +49,13 @@ export const Footer = () => {
               <a href="/latinsec">Sobre la empresa</a>
             </li>
           </ul>
+          {/* Nueva sección de contactos */}
+          <h2 className="text-[#252B42] font-bold text-2xl mt-6">Nuestros contactos</h2>
+          <div className="mt-4 text-sm text-[#737373]">
+            <p>Email: contacto@latinsec.com</p>
+            <p>Teléfono: +54 11 1234-5678</p>
+            <p>WhatsApp: +54 9 11 2345-6789</p>
+          </div>
         </div>
         <div>
           <h2 className="text-[#252B42] font-bold text-2xl">Nuestras redes</h2>
@@ -56,7 +68,7 @@ export const Footer = () => {
                 <FacebookIcon />
               </span>
             </a>
-            <a href="https://www.instagram.com/latinsecseguridad/" className="hover:scale-110 transition-transform">
+            <a href="https://www.instagram.com/latinsec_seguridad/" className="hover:scale-110 transition-transform">
               <span>
                 <InstagramIcon />
               </span>
