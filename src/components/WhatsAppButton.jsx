@@ -3,7 +3,7 @@ import { WhatsappIcon } from '@/assets/icons';
 export const WhatsAppButton = () => {
   return (
     <a
-     href="https://wa.me/+5491123180801"
+     href="https://wa.me/+5491152191638"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-8 right-8 z-50 group"
