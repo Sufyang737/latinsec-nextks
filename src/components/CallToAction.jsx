@@ -15,7 +15,7 @@ export const CallToAction = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/+5491123180801"
+                href="https://wa.me/+5491157651676"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-[#1ea952] transition-colors flex items-center justify-center gap-2"
