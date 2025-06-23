@@ -101,96 +101,112 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#FAFAFA]">
+      <section className="bg-[#FAFAFA] py-16">
         <Reveal hiddenValue={{ opacity: 0, x: -100 }}>
-          <div className="grid xl:grid-cols-4 gap-10 max-w-5xl mx-auto py-20 px-5">
-            <div className="bg-white p-8 flex flex-col justify-between h-72">
-              <div>
-                <span>
-                  <SearchIcon className="text-[45px]" />
+          <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-6 max-w-7xl mx-auto px-5">
+            <div className="bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-all">
+              <div className="mb-6">
+                <span className="text-[#0263A5]">
+                  <SearchIcon className="w-16 h-16" />
                 </span>
               </div>
-              <h2 className="font-bold text-[#252B42]">Investigación</h2>
-              <p className="font-bold text-sm text-[#737373]">
+              <h2 className="text-xl font-bold text-[#252B42] mb-4">Investigación</h2>
+              <p className="text-[#737373] text-sm mb-6">
                 Enfocado en la investigación de casos
               </p>
-              <div className="flex justify-center">
+              <div className="mt-auto">
                 <a
                   href="/investigaciones"
-                  className="border border-[#0263A5] px-[30px] py-[10px] rounded-full text-sm font-medium text-[#0263A5] flex items-center gap-2"
+                  className="inline-flex items-center gap-2 text-[#0263A5] hover:text-[#0263A5]/80 font-medium transition-colors"
                 >
-                  Más info{' '}
-                  <span>
-                    <ArrowRightIcon />
-                  </span>
+                  Más info
+                  <ArrowRightIcon className="w-4 h-4" />
                 </a>
               </div>
             </div>
-            <div className="bg-white p-8 flex flex-col justify-between h-72">
-              <div>
-                <span>
-                  <ShopTwotoneIcon className="text-[45px] text-[#0263A5]" />
+
+            <div className="bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-all">
+              <div className="mb-6">
+                <span className="text-[#0263A5]">
+                  <ShopTwotoneIcon className="w-16 h-16" />
                 </span>
               </div>
-              <h2 className="font-bold text-[#252B42]">Seguridad física</h2>
-              <p className="font-bold text-sm text-[#737373]">
+              <h2 className="text-xl font-bold text-[#252B42] mb-4">Seguridad física</h2>
+              <p className="text-[#737373] text-sm mb-6">
                 Personal de seguridad en todas las tiendas
               </p>
-              <div className="flex justify-center">
+              <div className="mt-auto">
                 <a
                   href="/seguridad-fisica"
-                  className="border border-[#0263A5] px-[30px] py-[10px] rounded-full text-sm font-medium text-[#0263A5] flex items-center gap-2"
+                  className="inline-flex items-center gap-2 text-[#0263A5] hover:text-[#0263A5]/80 font-medium transition-colors"
                 >
-                  Más info{' '}
-                  <span>
-                    <ArrowRightIcon />
-                  </span>
+                  Más info
+                  <ArrowRightIcon className="w-4 h-4" />
                 </a>
               </div>
             </div>
-            <div className="bg-white p-8 flex flex-col justify-between h-72">
-              <div>
-                <span>
-                  <TruckIcon className="text-[45px]" />
+
+            <div className="bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-all">
+              <div className="mb-6">
+                <span className="text-[#0263A5]">
+                  <TruckIcon className="w-16 h-16" />
                 </span>
               </div>
-              <h2 className="font-bold text-[#252B42]">
-                Custodia de mercaderia
+              <h2 className="text-xl font-bold text-[#252B42] mb-4">
+                Custodia de mercadería
               </h2>
-              <p className="font-bold text-sm text-[#737373]">
+              <p className="text-[#737373] text-sm mb-6">
                 Ofrecemos un servicio de Custodia Armada
               </p>
-              <div className="flex justify-center">
+              <div className="mt-auto">
                 <a
                   href="/custodia-de-mercaderia"
-                  className="border border-[#0263A5] px-[30px] py-[10px] rounded-full text-sm font-medium text-[#0263A5] flex items-center gap-2"
+                  className="inline-flex items-center gap-2 text-[#0263A5] hover:text-[#0263A5]/80 font-medium transition-colors"
                 >
-                  Más info{' '}
-                  <span>
-                    <ArrowRightIcon />
-                  </span>
+                  Más info
+                  <ArrowRightIcon className="w-4 h-4" />
                 </a>
               </div>
             </div>
-            <div className="bg-[#252B42] p-8 flex flex-col justify-between h-72 text-white">
-              <div>
-                <span>
-                  <NotebookIcon className="text-[45px]" />
+
+            <div className="bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-all">
+              <div className="mb-6">
+                <span className="text-[#0263A5]">
+                  <NotebookIcon className="w-16 h-16" />
                 </span>
               </div>
-              <h2 className="font-bold">Seguridad electrónica</h2>
-              <p className="font-bold text-sm">
+              <h2 className="text-xl font-bold text-[#252B42] mb-4">Seguridad electrónica</h2>
+              <p className="text-[#737373] text-sm mb-6">
                 Poseemos un Centro de Monitoreo Propio
               </p>
-              <div className="flex justify-center">
+              <div className="mt-auto">
                 <a
                   href="/seguridad-electronica"
-                  className="bg-white px-[30px] py-[10px] rounded-full text-sm font-medium text-[#0263A5] flex items-center gap-2"
+                  className="inline-flex items-center gap-2 text-[#0263A5] hover:text-[#0263A5]/80 font-medium transition-colors"
                 >
-                  Más info{' '}
-                  <span>
-                    <ArrowRightIcon />
-                  </span>
+                  Más info
+                  <ArrowRightIcon className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-[#252B42] rounded-lg p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-all">
+              <div className="mb-6">
+                <span className="text-white">
+                  <NotebookIcon className="w-16 h-16" />
+                </span>
+              </div>
+              <h2 className="text-xl font-bold text-white mb-4">Servicio de Toten</h2>
+              <p className="text-white/90 text-sm mb-6">
+                Sistema de control de rondas y vigilancia
+              </p>
+              <div className="mt-auto">
+                <a
+                  href="/servicio-de-toten"
+                  className="inline-flex items-center gap-2 text-white hover:text-white/80 font-medium transition-colors"
+                >
+                  Más info
+                  <ArrowRightIcon className="w-4 h-4" />
                 </a>
               </div>
             </div>
