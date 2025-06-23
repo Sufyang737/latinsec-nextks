@@ -1,4 +1,5 @@
 "use client"
+import React from 'react';
 import {
   ArrowRightIcon,
   AwardIcon,
@@ -7,6 +8,7 @@ import {
   SearchIcon,
   ShopTwotoneIcon,
   TruckIcon,
+  CameraIcon,
 } from '@/assets/icons';
 import SwiperCompanies from '@/components/SwiperCompanies';
 import SwiperComponent from '@/components/SwiperComponent';
@@ -17,6 +19,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import { DataCompanies } from '@/data/dataCompanies';
 import { DataTerritory } from '@/data/dataTerritory';
 import SwiperAbout from '@/components/SwiperAbout';
+import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -172,7 +175,7 @@ const Home = () => {
             <div className="bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-all">
               <div className="mb-6">
                 <span className="text-[#0263A5]">
-                  <NotebookIcon className="w-16 h-16" />
+                  <CameraIcon className="w-16 h-16" />
                 </span>
               </div>
               <h2 className="text-xl font-bold text-[#252B42] mb-4">Seguridad electrónica</h2>
