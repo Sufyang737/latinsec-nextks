@@ -10,6 +10,7 @@ import {
   TruckIcon,
   CameraIcon,
 } from '@/assets/icons';
+import ChatBot from '@/components/ChatBot/ChatBot';
 import SwiperCompanies from '@/components/SwiperCompanies';
 import SwiperComponent from '@/components/SwiperComponent';
 import bgPrimary from '@/assets/images/bg-primary.webp';
@@ -23,7 +24,8 @@ import Image from 'next/image';
 
 const Home = () => {
   return (
-    <main className="z-10">
+    <main className="z-10 relative">
+      <ChatBot />
       <section 
         className="h-screen grid place-content-center text-white relative"
         style={{
@@ -53,14 +55,6 @@ const Home = () => {
             Somos una empresa de vigilancia que cuenta con mas de 27 años de
             experiencia
           </p>
-          <a
-             href="https://wa.me/+5491123180801"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-bold text-sm bg-[#0263A5] py-[10px] px-9 rounded-full hover:scale-110"
-          >
-            Contactanos
-          </a>
         </div>
       </section>
       <section className="bg-[#0263A5] xl:h-24 lg:h-52 md:h-60 h-72 relative flex justify-center mt-10">
