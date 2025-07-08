@@ -24,6 +24,16 @@ const CommercialForm = ({ onBack }) => {
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
+  const createWhatsAppLink = (formData) => {
+    const message = encodeURIComponent(
+      `¡Hola! Soy de la empresa ${formData.empresa}.\n` +
+      `Email: ${formData.email}\n` +
+      `CUIT: ${formData.cuit}\n` +
+      `Me gustaría recibir más información sobre sus servicios.`
+    );
+    return `https://wa.me/+5491157651676?text=${message}`; // Replace with your actual WhatsApp number
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
@@ -45,10 +55,14 @@ const CommercialForm = ({ onBack }) => {
       if (response.ok) {
         console.log('Formulario enviado exitosamente');
         setIsSuccess(true);
+        const whatsappLink = createWhatsAppLink(formData);
         setFormData({ empresa: '', email: '', cuit: '' }); // Limpiar el formulario
+        
+        // Redirect to WhatsApp after a short delay
         setTimeout(() => {
+          window.open(whatsappLink, '_blank');
           onBack();
-        }, 2000);
+        }, 1500);
       } else {
         console.error('Error en la respuesta:', result);
         throw new Error(result.details || 'Error al enviar los datos');
